@@ -10,6 +10,4 @@ const itemSchema = new mongoose.Schema({
     price: {type: Number, required: true},
     quantity: {type: Number, required: true},
 });
-// export type Items =
-//     Required < itemSchema > mongoose.model('Items', itemSchema);
 export default mongoose.model<Item>('Items', itemSchema);
