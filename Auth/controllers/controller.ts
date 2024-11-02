@@ -12,11 +12,12 @@ export const register = async (
     res: express.Response,
 ): Promise<void> => {
     try {
-        const {name, email, password, role} = req.body;
+        const {name, email, password,role} = req.body;
         if (!name || !email || !password) {
             res.status(403).json({message: 'please fetch all data'});
         }
         const client = await Client.findOne({email});
+
         if (!client) {
             const hashPassword = await bcrypt.hash(password, 10);
             Client.create({

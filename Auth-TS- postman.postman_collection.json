@@ -69,13 +69,13 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjJiZTAyZWZjZDE2MWNlNWMxOGY0NSIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzAzODYzODAsImV4cCI6MTczMDM4OTk4MH0.GhsV1F6CkbCr9IrXkLXeX33OC5ytruPM6FEWQQZhnuY",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjU3NTA2ZTZkNjU0NjYxZTMyMjhlOCIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IkFkbWluc3RyYXRpb24iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzA1MDk4MDAsImV4cCI6MTczMDUxMzQwMH0._rl1-Jsfi85YMdjuDvtvqlXvduaRoOZClLci2cZhIhA",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"title\":\"v7 cola\",\r\n    \"price\":15,\r\n    \"quantity\":26\r\n}",
+					"raw": "{\r\n    \"title\":\"Labtop dell\",\r\n    \"price\":25000,\r\n    \"quantity\":10\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -103,7 +103,7 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjJiZGI2ZWZjZDE2MWNlNWMxOGY0MiIsImVtYWlsIjoiaGFzc2FuQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsIm5hbWUiOiJoYXNzYW4iLCJpYXQiOjE3MzAzMzQwNjMsImV4cCI6MTczMDMzNzY2M30.67_Uqkwz8CSIsO-bOZQloENLYyknZ1mcMMsDIXH2OkY",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjU3NTA2ZTZkNjU0NjYxZTMyMjhlOCIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IkFkbWluc3RyYXRpb24iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzA1MDk4MDAsImV4cCI6MTczMDUxMzQwMH0._rl1-Jsfi85YMdjuDvtvqlXvduaRoOZClLci2cZhIhA",
 						"type": "text"
 					}
 				],
@@ -128,19 +128,19 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjJiZGI2ZWZjZDE2MWNlNWMxOGY0MiIsImVtYWlsIjoiaGFzc2FuQGdtYWlsLmNvbSIsInJvbGUiOiJBZG1pbiIsIm5hbWUiOiJoYXNzYW4iLCJpYXQiOjE3MzAzMzQyOTEsImV4cCI6MTczMDMzNzg5MX0.DxXjm7W7uCwMEdgyyTHxriOfhsHqGN3dYc4HvWEFDE0",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjU3NTA2ZTZkNjU0NjYxZTMyMjhlOCIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IkFkbWluc3RyYXRpb24iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzA1MDk4MDAsImV4cCI6MTczMDUxMzQwMH0._rl1-Jsfi85YMdjuDvtvqlXvduaRoOZClLci2cZhIhA",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/6722ce322ee36c2c16a87ca8",
+					"raw": "http://localhost:3000/67257aca3301a5e18b40b181",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"6722ce322ee36c2c16a87ca8"
+						"67257aca3301a5e18b40b181"
 					]
 				}
 			},
@@ -153,13 +153,13 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjJiZTAyZWZjZDE2MWNlNWMxOGY0NSIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzAzODUxNjUsImV4cCI6MTczMDM4ODc2NX0.GPpad_bqv5OaJi1lbw3foZ5s1xl2u3U3aXH52gvc_s4",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjU3NTA2ZTZkNjU0NjYxZTMyMjhlOCIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IkFkbWluc3RyYXRpb24iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzA1MDk4MDAsImV4cCI6MTczMDUxMzQwMH0._rl1-Jsfi85YMdjuDvtvqlXvduaRoOZClLci2cZhIhA",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"price\":4.2,\r\n    \"quantity\":17\r\n}",
+					"raw": "{\r\n    \"price\":30000,\r\n    \"quantity\":12\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -167,14 +167,14 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:3000/67229d7bf77756899022852f",
+					"raw": "http://localhost:3000/67257aca3301a5e18b40b181",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"67229d7bf77756899022852f"
+						"67257aca3301a5e18b40b181"
 					]
 				}
 			},
@@ -187,19 +187,19 @@
 				"header": [
 					{
 						"key": "Authorization",
-						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjJiZTAyZWZjZDE2MWNlNWMxOGY0NSIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IlN1cGVyQWRtaW4iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzAzMzQzODgsImV4cCI6MTczMDMzNzk4OH0.Nb8QyN9oAcPAu_olYzwtKrCQqJZW_-Yr3yrTZbvfPdc",
+						"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY3MjU3NTA2ZTZkNjU0NjYxZTMyMjhlOCIsImVtYWlsIjoiQWhtZWRAZ21haWwuY29tIiwicm9sZSI6IkFkbWluc3RyYXRpb24iLCJuYW1lIjoiQWhtZWQiLCJpYXQiOjE3MzA1MDk4MDAsImV4cCI6MTczMDUxMzQwMH0._rl1-Jsfi85YMdjuDvtvqlXvduaRoOZClLci2cZhIhA",
 						"type": "text"
 					}
 				],
 				"url": {
-					"raw": "http://localhost:3000/6722ce322ee36c2c16a87ca8",
+					"raw": "http://localhost:3000/67257bf45ec5502416349ca3",
 					"protocol": "http",
 					"host": [
 						"localhost"
 					],
 					"port": "3000",
 					"path": [
-						"6722ce322ee36c2c16a87ca8"
+						"67257bf45ec5502416349ca3"
 					]
 				}
 			},

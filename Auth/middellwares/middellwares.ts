@@ -29,7 +29,7 @@ export async function checkToken(
     }
 }
 
-export async function checkSuperAdmin(
+export async function checkAccessRole(
     req: express.Request,
     res: express.Response,
     next: express.NextFunction,
@@ -44,7 +44,34 @@ export async function checkSuperAdmin(
             res.status(403).json({message: 'Access  Not Allowed'});
         } else {
             const role = decode.role;
-            if (role === 'SuperAdmin') {
+            if (role === 'SuperAdmin' || role === 'Adminstration') {
+                next();
+            } else {
+                res.status(403).json({
+                    message: 'Access Not Allowed for your role',
+                });
+            }
+        }
+    } catch (err: any) {
+        res.status(500).json({message: err.message});
+    }
+}
+export async function checkAdminsatration(
+    req: express.Request,
+    res: express.Response,
+    next: express.NextFunction,
+): Promise<void> {
+    try {
+        const authorize = req.headers.authorization;
+        const decode: any = jwt.verify(
+            authorize as string,
+            process.env.ACCESSTOKENSECRET as string,
+        );
+        if (!decode) {
+            res.status(403).json({message: 'Access  Not Allowed'});
+        } else {
+            const role = decode.role;
+            if (role === 'Adminstration') {
                 next();
             } else {
                 res.status(403).json({

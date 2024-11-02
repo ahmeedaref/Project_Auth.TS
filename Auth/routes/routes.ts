@@ -9,15 +9,19 @@ import {
 	register,
 	updateItem,
 } from '../controllers/controller';
-import { checkSuperAdmin, checkToken } from '../middellwares/middellwares';
+import {
+	checkAccessRole,
+	checkAdminsatration,
+	checkToken,
+} from '../middellwares/middellwares';
 
 const router: Router = Router();
 
 router.post('/register', register);
 router.post('/login', login);
-router.post('/', checkToken, create);
+router.post('/', checkToken,checkAccessRole, create);
 router.get('/', checkToken, getAllItems);
-router.get('/:id', getItem);
-router.put('/:id', checkToken, checkSuperAdmin, updateItem);
-router.delete('/:id', checkToken, checkSuperAdmin, deleteItem);
+router.get('/:id', checkToken,getItem);
+router.put('/:id', checkToken, checkAdminsatration, updateItem);
+router.delete('/:id', checkToken, checkAccessRole, deleteItem);
 export default router;

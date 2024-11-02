@@ -10,7 +10,7 @@ const clientSchema = new mongoose.Schema({
     name: {type: String, required: true},
     email: {type: String, required: true},
     password: {type: String, required: true},
-    role: {type: String, enum: ['Admin', 'SuperAdmin'], default: 'Admin'},
+    role: {type: String, enum: ['AdminUser', 'SuperAdmin',"Adminstration"], default: 'AdminUser'},
 });
 
 export default mongoose.model<ClientsI>('Client', clientSchema);
